@@ -4,9 +4,9 @@ let r, g, b;
 let score = 0;
 
 function setup() {
-  createCanvas(windowWidth, windowHight);
+  createCanvas(windowWidth, windowHieght);
   x = random(windowWidth);
-  y =random(windowHight);
+  y =random(windowHieght);
   r = random(255);
   g = random(255);
   b = random(255);
